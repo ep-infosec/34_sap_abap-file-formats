@@ -1,0 +1,19 @@
+{
+  "formatVersion": "1",
+  "header": {
+    "description": "Example number range object for ABAP file formats",
+    "originalLanguage": "en"
+  },
+  "interval": {
+    "numberLengthDomain": "NUM10",
+    "percentWarning": 10.0,
+    "subType": "",
+    "untilYear": false,
+    "rolling": false,
+    "prefix": false
+  },
+  "configuration": {
+    "buffering": "none",
+    "bufferedNumbers": 0
+  }
+}

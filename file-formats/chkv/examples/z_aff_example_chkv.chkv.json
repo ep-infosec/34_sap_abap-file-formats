@@ -1,0 +1,64 @@
+{
+  "formatVersion": "1",
+  "header": {
+    "description": "Example CHKV for ABAP file formats",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "selectedChecks": [
+    {
+      "checkName": "CI_SEARCH_ABAP_PATTERN",
+      "parameters": [
+        {
+          "name": "StatementPattern",
+          "valueList": [
+            "CALL FUNCTION 'DB_EXISTS_INDEX' *",
+            "CALL FUNCTION 'DD_INDEX_NAME' *"
+          ]
+        },
+        {
+          "name": "FindingSeverity",
+          "value": "E"
+        }
+      ]
+    },
+    {
+      "checkName": "SLIN_VERS",
+      "parameters": [
+        {
+          "name": "ABAPLanguageVersion",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "checkName": "SYCM_S4H_SEARCH_DB_OPS",
+      "parameters": [
+        {
+          "name": "ReleaseID",
+          "value": "S4HANA_READINESS_1809"
+        },
+        {
+          "name": "SAPNotes",
+          "valueRangeList": [
+            {
+              "sign": "exclude",
+              "option": "equals",
+              "low": "0002470721"
+            }
+          ]
+        },
+        {
+          "name": "SimplificationItemCategories",
+          "valueRangeList": [
+            {
+              "sign": "exclude",
+              "option": "lessEqual",
+              "low": "P"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "formatVersion": "1",
+  "header": {
+    "description": "Example FUNC for ABAP file formats"
+  },
+  "processingType": "normal",
+  "releaseState": "notReleased",
+  "exceptionClasses": true,
+  "includeNumber": "01",
+  "notExecutable": true,
+  "parameters": [
+    {
+      "name": "I_PARAM",
+      "description": "This is an example parameter"
+    }
+  ],
+  "exceptions": [
+    {
+      "name": "CX_STATIC_CHECK",
+      "description": "This is an example exception"
+    }
+  ]
+}
